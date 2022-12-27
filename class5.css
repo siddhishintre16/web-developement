@@ -1,0 +1,19 @@
+.d1 {
+    color: black;
+    background-color: white;
+    border: black 5px solid;
+}
+
+p[name] {
+    background-color: aqua;
+}
+
+body {
+    background-color: gray;
+}
+
+img {
+    border-radius: 100%;
+}
+
+

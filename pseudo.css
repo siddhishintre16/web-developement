@@ -1,0 +1,50 @@
+.btn {
+    background-color: red;
+    color: white;
+}
+
+
+/*Pseudo class*/
+.btn:hover {
+    background-color: black;
+    color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.btn:active {
+    background-color: blue;
+    color: brown;
+    width: 200px;
+    height: 200px;
+
+}
+
+.btn:focus {
+    background-color: red;
+    color: navy;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+/*Pseudo elements*/
+    .para::before{
+        content: "My name is :";
+        color: red;
+        
+    }
+
+    .para::after
+    {
+        content: " shintre";
+        color: darkblue;
+    }
+
+    .para::selection
+    {
+        color: green;
+        background-color: yellow;
+    }
+
